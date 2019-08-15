@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://jinyoung.dev'
 
 module.exports = {
   siteMetadata: {
@@ -31,6 +31,12 @@ module.exports = {
       email: 'kang.derrick@gmail.com',
       github: 'superbderrick',
       linkedin:'sensational',
+      telegram: '#',
+      twitter: '#',
+      rss: '#',
+      vk: '#',
+
+
     },
   },
   plugins: [
