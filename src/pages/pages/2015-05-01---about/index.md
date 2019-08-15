@@ -9,8 +9,8 @@ I am an expert in Android and iOS App developments and live streaming technologi
 Especially I spent a lot of time on providing software development kit among various platforms in my career.
 I have participated in several overseas exhibitions to study many cases from various industries technologies.
 
-![tesr ](./7F993F77-0387-4CE9-A691-3EB6F609B313.jpeg)
+![at google io 2018 ](./7F993F77-0387-4CE9-A691-3EB6F609B313.jpeg)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+Nowadays I spend a lot of time on development in order to make cool stuffs with Android and I am so excited about how I can make a good service with Android and change the world better.
+My vision is to enrich our lives with the latest technology therefore I am interested in new technologies and love to learn of new technologies.
+My personal interests are table tennis and traveling (I have visited to 15 countries until now) I love new situations and to meet new people , especially I can be a close friend easily to any people regardless of nationality, race, age,gender, or different cultures.
