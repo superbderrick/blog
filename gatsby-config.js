@@ -28,12 +28,9 @@ module.exports = {
     ],
     author: {
       name: 'Derrick kang',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      email: 'kang.derrick@gmail.com',
+      github: 'superbderrick',
+      linkedin:'sensational',
     },
   },
   plugins: [
