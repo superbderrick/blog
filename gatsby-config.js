@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: url,
     title: 'Blog by Derrick kang',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Trying to be an awesome software engineer who can help people and public welfare services.😎',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
