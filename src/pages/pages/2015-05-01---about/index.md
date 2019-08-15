@@ -4,9 +4,12 @@ layout: page
 path: "/about"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+  My name is Derrick Kang (강진영). Currently I am working as a Software Engineer in Korea
+I am an expert in Android and iOS App developments and live streaming technologies areas.
+Especially I spent a lot of time on providing software development kit among various platforms in my career.
+I have participated in several overseas exhibitions to study many cases from various industries technologies.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./7F993F77-0387-4CE9-A691-3EB6F609B313.jpeg)
+![tesr ](./7F993F77-0387-4CE9-A691-3EB6F609B313.jpeg)
 
 *Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
 
