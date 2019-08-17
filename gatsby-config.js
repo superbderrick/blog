@@ -11,7 +11,7 @@ module.exports = {
     subtitle:
       'Trying to be an awesome software engineer who can help people and public welfare services.😎',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'Derrick',
     menu: [
       {
         label: 'Articles',
@@ -127,7 +127,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-145884641-1' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
