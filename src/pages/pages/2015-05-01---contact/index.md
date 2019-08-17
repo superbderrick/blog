@@ -1,7 +1,7 @@
 ---
-title: "Contact me"
+title: "Projects"
 layout: page
-path: "/contact"
+path: "/project"
 ---
 
 Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
