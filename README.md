@@ -1,4 +1,4 @@
-# New Derrick Vlog & Portfolio
+# New Derrick Dev-blog & Portfolio
 
 ##### https://jinyoung.dev
 
