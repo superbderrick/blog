@@ -27,13 +27,23 @@ description: "Unity Object 이동 관련 API 정리"
 
 # Object의 이동 API
 
-1.Transform.position (월드)
+## Transform
+ -  1.Transform.position (월드)
+    - The world space position of the Transform
 
-- The world space position of the Transform
+ -  2.Transform.translate (상대)
+     - Moves the transform in the direction and distance of translation
 
-2.Transform.translate (상대)
 
-- Moves the transform in the direction and distance of translation
+## Rigidbody  
+
+-  1.MovePosition
+    - 
+
+
+
+  
+
 
 
 
