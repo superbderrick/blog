@@ -35,10 +35,6 @@ description: "Unity Object 이동 관련 API 정리"
      - Moves the transform in the direction and distance of translation
 
 
-## Rigidbody  
-
--  1.MovePosition
-    - 
 
 
 
