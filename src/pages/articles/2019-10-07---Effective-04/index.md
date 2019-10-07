@@ -1,6 +1,6 @@
 ---
 title: Effective Java 04 객체 생성을 막을 때는 Private 생성자를 사용하라
-date: "2019-09-05T16:51:00.000Z"
+date: "2019-10-07T16:51:00.000Z"
 layout: post
 draft: false
 path: "/posts/effective-04/"
