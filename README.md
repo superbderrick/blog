@@ -1,4 +1,4 @@
-# New Derrick Dev-blog & Portfolio
+### Derrick Dev-blog & Portfolio
 
 ##### https://jinyoung.dev
 
