@@ -6284,7 +6284,7 @@ gulp-util@^3.0.1:
     lodash._reescape "^3.0.0"
     lodash._reevaluate "^3.0.0"
     lodash._reinterpolate "^3.0.0"
-    lodash.template "^3.0.0"
+    lodash.template "^4.5.0"
     minimist "^1.1.0"
     multipipe "^0.1.2"
     object-assign "^3.0.0"
@@ -11487,7 +11487,7 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-serialize-javascript@^1.4.0:
+serialize-javascript@^2.1.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.5.0.tgz#1aa336162c88a890ddad5384baebc93a655161fe"
   integrity sha512-Ga8c8NjAAp46Br4+0oZ2WxJCwIzwP60Gq1YPgU+39PiTVxyed/iKE/zyZI6+UlVYH5Q4PaQdHhcegIFPZTUfoQ==
@@ -12448,7 +12448,7 @@ terser-webpack-plugin@^1.0.2:
     cacache "^11.0.2"
     find-cache-dir "^2.0.0"
     schema-utils "^1.0.0"
-    serialize-javascript "^1.4.0"
+    serialize-javascript "^2.1.1"
     source-map "^0.6.1"
     terser "^3.8.1"
     webpack-sources "^1.1.0"
@@ -12754,7 +12754,7 @@ uglifyjs-webpack-plugin@^1.2.4:
     cacache "^10.0.4"
     find-cache-dir "^1.0.0"
     schema-utils "^0.4.5"
-    serialize-javascript "^1.4.0"
+    serialize-javascript "^2.1.1"
     source-map "^0.6.1"
     uglify-es "^3.3.4"
     webpack-sources "^1.1.0"
@@ -13507,7 +13507,7 @@ workbox-build@^3.4.1:
     fs-extra "^4.0.2"
     glob "^7.1.2"
     joi "^11.1.1"
-    lodash.template "^4.4.0"
+    lodash.template "^4.5.0"
     pretty-bytes "^4.0.2"
     stringify-object "^3.2.2"
     strip-comments "^1.0.2"
