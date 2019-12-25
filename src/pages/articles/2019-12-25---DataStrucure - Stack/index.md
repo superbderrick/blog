@@ -38,4 +38,4 @@ isEmpty(): 큐가 비어 있을 때에 true를 반환한다
 
 # Implement sample code 
 
-https://github.com/superbderrick/Technical_Interview/blob/master/datastrucure/stack/DerrickStack.java
+https://github.com/superbderrick/Technical_Interview/blob/master/datastrucure/stack/DerrickQueue.java
