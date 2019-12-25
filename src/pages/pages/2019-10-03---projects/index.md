@@ -7,7 +7,6 @@ path: "/project"
 ### COMMERCIAL PROJECTS
 
 
-
 ### PERSONAL PROJECTS
 
 - ### ScoreBoard
