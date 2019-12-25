@@ -11,9 +11,13 @@ path: "/project"
 ### PERSONAL PROJECTS
 
 - ### ScoreBoard
+
+    <img src="https://github.com/superbderrick/Blog/blob/master/src/pages/pages/2019-10-03---projects/projects/scoreboard.png" width=20%>
     
     -  Simple android app development project Development
     -  Scoreboard is an android app that can record table tennis score easily
+
+     
 
     - https://github.com/superbderrick/ScoreBoard   
 
