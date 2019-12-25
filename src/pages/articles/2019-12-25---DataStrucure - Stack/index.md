@@ -1,5 +1,5 @@
 ---
-title: Datastrucure Stack
+title: Datastrucure 정리 Stack
 date: "2019-12-25T14:11:00.000Z"
 layout: post
 draft: false
@@ -10,7 +10,7 @@ tags:
 description: "Datastrucure Stack"
 ---
 
-#Datastrucure 정리 Stack
+# Datastrucure 정리 Stack
 
 한 쪽 끝에서만 자료를 넣고 뺄 수 있는 LIFO(Last In First Out) 형식의 Datastrucure
 
@@ -28,6 +28,6 @@ isEmpty(): 스택이 비어 있을 때에 true를 반환한다.
 - 실행 취소 (undo)
 - 역순 문자열 만들기
 
-Implement sample code 
+# Implement sample code 
 
 https://github.com/superbderrick/Technical_Interview/blob/master/datastrucure/stack/DerrickStack.java
