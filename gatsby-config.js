@@ -10,7 +10,7 @@ module.exports = {
     title: 'Blog by Derrick kang',
     subtitle:
       'Trying to be an awesome software engineer who can help people and public welfare services.😎',
-    copyright: '© All rights reserved.',
+    copyright: '© All rights reserved by Derrick',
     disqusShortname: 'Derrick',
     menu: [
       {
