@@ -3200,7 +3200,7 @@ cosmiconfig@^4.0.0:
   integrity sha512-6e5vDdrXZD+t5v0L8CrurPeybg4Fmf+FCSYxXKYVAqLUtyCSbuyqE059d0kDthTNRzKVjL7QMgNpEUlsoYH3iQ==
   dependencies:
     is-directory "^0.3.1"
-    js-yaml "^3.9.0"
+    js-yaml "^3.13.1"
     parse-json "^4.0.0"
     require-from-string "^2.0.1"
 
@@ -3210,7 +3210,7 @@ cosmiconfig@^5.0.0, cosmiconfig@^5.0.5:
   integrity sha512-6DWfizHriCrFWURP1/qyhsiFvYdlJzbCzmtFWh744+KyWsJo5+kPzUZZaMRSSItoYc0pxFX7gEO7ZC1/gN/7AQ==
   dependencies:
     is-directory "^0.3.1"
-    js-yaml "^3.9.0"
+    js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
 create-ecdh@^4.0.0:
@@ -4553,7 +4553,7 @@ eslint@^4.14.0, eslint@^4.19.1:
     imurmurhash "^0.1.4"
     inquirer "^3.0.6"
     is-resolvable "^1.0.0"
-    js-yaml "^3.9.1"
+    js-yaml "^3.13.1"
     json-stable-stringify-without-jsonify "^1.0.1"
     levn "^0.3.0"
     lodash "^4.17.4"
@@ -6173,7 +6173,7 @@ graphql-config@^2.0.1:
   dependencies:
     graphql-import "^0.7.1"
     graphql-request "^1.5.0"
-    js-yaml "^3.10.0"
+    js-yaml "^3.13.1"
     lodash "^4.17.4"
     minimatch "^3.0.4"
 
@@ -6232,7 +6232,7 @@ gray-matter@^4.0.0:
   resolved "https://registry.yarnpkg.com/gray-matter/-/gray-matter-4.0.1.tgz#375263c194f0d9755578c277e41b1c1dfdf22c7d"
   integrity sha512-p0MADBEBl1CohV7nRZ8sVinBexEe3CKVhh0A0QIHKpcbRoxB0VgeMpRPjW/HBHIPLAKrpIIIm5mZ6hKu3E+iQg==
   dependencies:
-    js-yaml "^3.11.0"
+    js-yaml "^3.13.1"
     kind-of "^6.0.2"
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
@@ -12307,7 +12307,7 @@ svgo@^0.7.2:
     coa "~1.0.1"
     colors "~1.1.2"
     csso "~2.3.1"
-    js-yaml "~3.7.0"
+    js-yaml "~3.13.1"
     mkdirp "~0.5.1"
     sax "~1.2.1"
     whet.extend "~0.9.9"
@@ -12324,7 +12324,7 @@ svgo@^1.0.0:
     css-tree "1.0.0-alpha.28"
     css-url-regex "^1.1.0"
     csso "^3.5.0"
-    js-yaml "^3.12.0"
+    js-yaml "^3.13.1"
     mkdirp "~0.5.1"
     object.values "^1.0.4"
     sax "~1.2.4"
@@ -13753,7 +13753,7 @@ yaml-loader@^0.5.0:
   resolved "https://registry.yarnpkg.com/yaml-loader/-/yaml-loader-0.5.0.tgz#86b1982d84a8e429e6647d93de9a0169e1c15827"
   integrity sha512-p9QIzcFSNm4mCw/m5NdyMfN4RE4aFZJWRRb01ERVNGCym8VNbKtw3OYZXnvUIkim6U/EjqE/2yIh9F/msShH9A==
   dependencies:
-    js-yaml "^3.5.2"
+    js-yaml "^3.13.1"
 
 yargs-parser@^11.1.1:
   version "11.1.1"
