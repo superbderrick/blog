@@ -11,7 +11,7 @@ path: "/project"
 
 - ### ScoreBoard
 
-    <img src="https://github.com/superbderrick/Blog/blob/master/src/pages/pages/2019-10-03---projects/projects/scoreboard.png" width="200">
+    <img src="https://github.com/superbderrick/Blog/blob/master/src/pages/pages/2019-10-03---projects/projects/scoreboard.png?raw=true" width="200">
 
     
 
