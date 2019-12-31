@@ -3,7 +3,7 @@ title: Android Build Error solution regarding "Cannot inline bytecode built with
 date: "2019-12-26T14:11:00.000Z"
 layout: post
 draft: false
-path: "/posts/android_Info/"
+path: "/posts/android/tip/builerror/jvmbytecode"
 category: "Android"
 tags:
   - "Android"
