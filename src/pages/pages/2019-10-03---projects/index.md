@@ -19,4 +19,4 @@ path: "/project"
 - https://github.com/superbderrick/ScoreBoard   
 
 
-[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_30.png)](https://play.google.com/store/apps/details?id=io.github.superbderrick.scoreboard)
+[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=io.github.superbderrick.scoreboard)
