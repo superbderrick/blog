@@ -3,7 +3,7 @@ title: WebRTC concept 및 API 정리
 date: "2019-12-17T14:40:00.000Z"
 layout: post
 draft: false
-path: "/posts/WebRTC-01/"
+path: "/posts/webrtc/webrtc_study01/"
 category: "WebRTC"
 tags:
   - "WebRTC"

@@ -3,7 +3,7 @@ title: Effective Java 01 생성자 대신 펙터리 메서드 사용하기
 date: "2019-08-24T16:51:00.000Z"
 layout: post
 draft: false
-path: "/posts/effective-01/"
+path: "/posts/java/effective01/"
 category: "EffectiveJava"
 tags:
   - "EffectiveJava"

@@ -3,7 +3,7 @@ title: Effective Java 04 객체 생성을 막을 때는 Private 생성자를 사
 date: "2019-10-07T16:51:00.000Z"
 layout: post
 draft: false
-path: "/posts/effective-04/"
+path: "/posts/java/effective04/"
 category: "EffectiveJava"
 tags:
   - "EffectiveJava"

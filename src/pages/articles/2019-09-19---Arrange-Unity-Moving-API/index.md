@@ -3,7 +3,7 @@ title: Unity Object 이동 관련 API 정리
 date: "2019-09-19T16:51:00.000Z"
 layout: post
 draft: false
-path: "/posts/Arrange-Unity-Moving-API/"
+path: "/posts/unity/unity_object_moving/"
 category: "UnityAPI"
 tags:
   - "Unity"

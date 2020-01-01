@@ -3,7 +3,7 @@ title: Effective Java 03 Private 생성자나 enum 자료형은 싱글턴 패턴
 date: "2019-09-05T16:51:00.000Z"
 layout: post
 draft: false
-path: "/posts/effective-03/"
+path: "/posts/java/effective03/"
 category: "EffectiveJava"
 tags:
   - "EffectiveJava"

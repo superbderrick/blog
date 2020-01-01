@@ -3,7 +3,7 @@ title: AB Testing Concept
 date: "2019-12-26T14:11:00.000Z"
 layout: post
 draft: false
-path: "/posts/ABTesting/"
+path: "/posts/general/abtesting/"
 category: "general"
 tags:
   - "general"

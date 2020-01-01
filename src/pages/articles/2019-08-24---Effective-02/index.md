@@ -3,7 +3,7 @@ title: Effective Java 02 생성자 인자가 많을 때는 Builder 패턴 적용
 date: "2019-08-24T16:51:00.000Z"
 layout: post
 draft: false
-path: "/posts/effective-02/"
+path: "/posts/java/effective02/"
 category: "EffectiveJava"
 tags:
   - "EffectiveJava"

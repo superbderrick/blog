@@ -3,7 +3,7 @@ title: Effective Java 06 유효기간이 지난 객체 참조는 폐기하라
 date: "2019-11-04T19:50:00.000Z"
 layout: post
 draft: false
-path: "/posts/effective-06/"
+path: "/posts/java/effective06/"
 category: "EffectiveJava"
 tags:
   - "EffectiveJava"

@@ -3,7 +3,7 @@ title: Datastrucure 정리 Stack
 date: "2019-12-25T14:11:00.000Z"
 layout: post
 draft: false
-path: "/posts/Datastrucure-stack/"
+path: "/posts/datastrucure/stack/"
 category: "Datastrucure"
 tags:
   - "Datastrucure"

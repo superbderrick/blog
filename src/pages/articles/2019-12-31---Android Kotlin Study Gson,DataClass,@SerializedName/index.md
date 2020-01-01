@@ -3,7 +3,7 @@ title: Android Kotlin Study Gson,DataClass,@SerializedName
 date: "2019-12-31T21:34:00.000Z"
 layout: post
 draft: false
-path: "/posts/android/study/grammar/gson"
+path: "/posts/android/kotlin/grammar/gson"
 category: "Android"
 tags:
   - "Android"

@@ -3,7 +3,7 @@ title: Effective Java 05 불필요한 객체는 만들지 마라
 date: "2019-11-04T19:50:00.000Z"
 layout: post
 draft: false
-path: "/posts/effective-05/"
+path: "/posts/java/effective05/"
 category: "EffectiveJava"
 tags:
   - "EffectiveJava"

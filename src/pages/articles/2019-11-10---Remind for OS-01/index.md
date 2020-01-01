@@ -3,7 +3,7 @@ title: Study for OS 운영체제 2강까지 정리
 date: "2019-11-10T14:40:00.000Z"
 layout: post
 draft: false
-path: "/posts/os-01/"
+path: "/posts/os/osstudy01/"
 category: "OS"
 tags:
   - "os"
