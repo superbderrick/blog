@@ -23,7 +23,14 @@ After change the JVM Compile version to 1.8, it can fix the build error
 ### Following steps
 1. Go to Android Setting Window -> Preferences -> Kotlin Compiler 
 2. Change The Kotlin Compiler Version from 1.6 to 1.8 version
-3. Modify app/build.gradle file like below
+3. Add a kotlin options at app/build.gradle
+
+<pre><code>
+kotlinOptions {
+    jvmTarget = "1.8"
+} 
+       
+</code></pre>
 
 
 <pre><code>
@@ -38,9 +45,11 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        kotlinOptions {
+
+         kotlinOptions {
             jvmTarget = "1.8"
-        }
+        } 
+
     }
     buildTypes {
         release {
