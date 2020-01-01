@@ -1,6 +1,6 @@
 ---
-title: Android Kotlin Study Gson,DataClass,@SerializedName
-date: "2020-01-01T14:34:00.000Z"
+title: Android Study some networking modules
+date: "2020-01-01T15:34:00.000Z"
 layout: post
 draft: true
 path: "/posts/android/kotlin/grammar/basicconcepts"
