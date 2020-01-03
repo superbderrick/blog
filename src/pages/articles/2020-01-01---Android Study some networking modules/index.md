@@ -1,6 +1,6 @@
 ---
 title: Android Study some networking modules
-date: "2020-01-01T15:34:00.000Z"
+date: "2020-01-03T15:34:00.000Z"
 layout: post
 draft: true
 path: "/posts/android/kotlin/grammar/basicconcepts"
