@@ -2,7 +2,7 @@
 title: 2021-01-03---Android Basic components
 date: "2020-01-01T15:34:00.000Z"
 layout: post
-draft: true
+draft: false
 path: "/posts/android/concept/androidcomponents"
 category: "Android"
 tags:
