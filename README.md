@@ -1,6 +1,6 @@
-### Derrick - development blog and portfolio
+## Personal development blog and portfolio
 
-##### https://jinyoung.dev
+#### https://jinyoung.dev
 
 
 
