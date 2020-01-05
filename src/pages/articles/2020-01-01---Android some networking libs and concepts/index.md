@@ -1,15 +1,15 @@
 ---
-title: Android Study some networking modules
+title: Android some networking modules concepts
 date: "2020-01-03T15:34:00.000Z"
 layout: post
-draft: false
+draft: true
 path: "/posts/android/network/modules"
 category: "Android"
 tags:
   - "Android"
-  - "Kotlin"
+  - "Okhttp"
 
-description: "Study note for kotlin grammars"
+description: "Android some networking modules concepts"
 ---
 
 ## concepts list
@@ -19,6 +19,7 @@ description: "Study note for kotlin grammars"
 - okHttpClient
 - dto,vo
 - gson
+
 
 
 ### Gson
