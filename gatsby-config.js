@@ -18,13 +18,14 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'Projects',
-        path: '/project/',
-      }, 
-      {
         label: 'About me',
         path: '/about',
       },
+      {
+        label: 'Projects',
+        path: '/project/',
+      }, 
+      
     ],
     author: {
       name: 'Derrick kang',
