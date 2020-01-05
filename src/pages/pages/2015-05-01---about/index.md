@@ -1,7 +1,7 @@
 ---
 title: "About me"
 layout: page
-path: "/about"
+path: "/"
 ---
 
   My name is Derrick Kang (강진영). Currently I am working as a Software Engineer in Korea
