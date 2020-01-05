@@ -1,22 +1,21 @@
 ---
-title: Android Kotlin Study Gson,DataClass,@SerializedName
+title: Android kotlin grammars dataClass,lateinit,object
 date: "2019-12-31T21:34:00.000Z"
 layout: post
 draft: false
-path: "/posts/android/kotlin/grammar/gson"
+path: "/posts/android/kotlin/grammar/dataclass"
 category: "Android"
 tags:
   - "Android"
   - "Kotlin"
 
-description: "Study note for kotlin grammars"
+description: "Study note for kotlin grammars dataClass,lateinit,object"
 ---
 
-### Gson
-
-Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you do not have source-code of.
-
-There are a few open-source projects that can convert Java objects to JSON. However, most of them require that you place Java annotations in your classes; something that you can not do if you do not have access to the source-code. Most also do not fully support the use of Java Generics. Gson considers both of these as very important design goals.
+## concepts list
+- dataclass
+- lateinit
+- object and class differences
 
 
 ### Data class
@@ -27,8 +26,6 @@ Usually, data classes represent real-world entities, and it’s common to have d
 
 ### Refs
 
-- https://github.com/google/gson
 - https://blog.usejournal.com/beyond-gson-evaluating-json-parsers-for-android-kotlin-e7aa4bcc413e
 - https://android.jlelse.eu/kotlin-for-android-developers-data-class-c2ad51a32844
 - https://freemmer.tistory.com/119
-- https://howtodoinjava.com/gson/gson-serializedname/
