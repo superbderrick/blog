@@ -10,13 +10,13 @@ module.exports = {
     facebook: ``, 
     github: `superbderrick`, 
     linkedin: `https://www.linkedin.com/in/sensational/`, 
-    instagram: `https://www.instagram.com/derricks2/`, // Your Facebook account
+    instagram: `https://www.instagram.com/derricks2/`, 
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
     disqusShortName: 'derrickkangpersonal', // Your disqus-short-name. check disqus.com.
-    utterances: '', // Your repository for archive comment
+    utterances: '', 
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
