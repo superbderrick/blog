@@ -1,13 +1,13 @@
 module.exports = {
-  title: `Hi There`,
+  title: `Derrick's world`,
   description: `Derrick's development blog`,
   author: `[Derrick]`,
   introduction: `Enthusiast about how technology can be applied to improve daily life and for public welfare. And Trying to be good open source contributor`,
   siteUrl: `https://jinyoung.dev`, 
   social: {
-    twitter: ``, // Your Twitter account
-    medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
+    twitter: ``, 
+    medium: ``, 
+    facebook: ``, 
     github: `superbderrick`, 
     linkedin: `https://www.linkedin.com/in/sensational/`, 
     instagram: `https://www.instagram.com/derricks2/`, // Your Facebook account
