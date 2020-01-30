@@ -27,5 +27,5 @@ module.exports = {
   share: {
     facebookAppId: '', 
   },
-  ga: '', 
+  ga: '145884641', 
 }
