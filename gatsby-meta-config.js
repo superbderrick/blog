@@ -6,6 +6,8 @@ module.exports = {
   siteUrl: `https://jinyoung.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
+    medium: ``, // Your Medium account
+    facebook: ``, // Your Facebook account
     github: `https://github.com/superbderrick`, 
     linkedin: `https://www.linkedin.com/in/sensational/`, 
     instagram: `https://www.instagram.com/derricks2/`, // Your Facebook account
