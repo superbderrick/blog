@@ -5,6 +5,7 @@ module.exports = {
   introduction: `Enthusiast about how technology can be applied to improve daily life and for public welfare. And Trying to be good open source contributor`,
   siteUrl: `https://jinyoung.dev`, // Your blog site url
   social: {
+    twitter: ``, // Your Twitter account
     github: `https://github.com/superbderrick`, 
     linkedin: `https://www.linkedin.com/in/sensational/`, 
     instagram: `https://www.instagram.com/derricks2/`, // Your Facebook account
