@@ -1,9 +1,9 @@
 module.exports = {
-  title: `Derrick's world`,
+  title: `Hi There`,
   description: `Derrick's development blog`,
   author: `[Derrick]`,
   introduction: `Enthusiast about how technology can be applied to improve daily life and for public welfare. And Trying to be good open source contributor`,
-  siteUrl: `https://jinyoung.dev`, // Your blog site url
+  siteUrl: `https://jinyoung.dev`, 
   social: {
     twitter: ``, // Your Twitter account
     medium: ``, // Your Medium account
@@ -15,8 +15,8 @@ module.exports = {
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    disqusShortName: 'derrickkangpersonal', // Your disqus-short-name. check disqus.com.
+    //utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
