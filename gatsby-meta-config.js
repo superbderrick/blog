@@ -15,14 +15,14 @@ module.exports = {
   icon: `content/assets/felog.png`, 
   keywords: [`blog`],
   comment: {
-    disqusShortName: 'derrickkangpersonal', 
+    disqusShortName: 'derrick', 
     utterances: '', 
   },
   configs: {
     countOfInitialPost: 10, 
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '9n7DwKr',
   },
   share: {
     facebookAppId: '', 
