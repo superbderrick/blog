@@ -1,7 +1,7 @@
 module.exports = {
   title: `Derrick's world`,
   description: `Derrick's development blog`,
-  author: `[Derrick]`,
+  author: `Derrick`,
   introduction: `Enthusiast about how technology can be applied to improve daily life and for public welfare. And Trying to be good open source contributor`,
   siteUrl: `https://jinyoung.dev`, 
   social: {
@@ -12,20 +12,20 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/sensational/`, 
     instagram: `https://www.instagram.com/derricks2/`, 
   },
-  icon: `content/assets/felog.png`, // Add your favicon
+  icon: `content/assets/felog.png`, 
   keywords: [`blog`],
   comment: {
-    disqusShortName: 'derrickkangpersonal', // Your disqus-short-name. check disqus.com.
+    disqusShortName: 'derrickkangpersonal', 
     utterances: '', 
   },
   configs: {
-    countOfInitialPost: 10, // Config your initial count of post
+    countOfInitialPost: 10, 
   },
   sponsor: {
     buyMeACoffeeId: 'jbee',
   },
   share: {
-    facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
+    facebookAppId: '', 
   },
-  ga: '', // Add your google analytics tranking ID
+  ga: '', 
 }
