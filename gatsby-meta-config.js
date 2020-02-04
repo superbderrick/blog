@@ -9,7 +9,7 @@ module.exports = {
     medium: ``, 
     facebook: ``, 
     github: `superbderrick`, 
-    linkedin: `https://www.linkedin.com/in/sensational/`, 
+    linkedin: `sensational`, 
     instagram: `https://www.instagram.com/derricks2/`, 
   },
   icon: `content/assets/felog.png`, 
@@ -25,7 +25,7 @@ module.exports = {
     buyMeACoffeeId: '9n7DwKr',
   },
   share: {
-    facebookAppId: '', 
+    facebookAppId: '121488769187949', 
   },
   ga: '145884641', 
 }
