@@ -1,7 +1,7 @@
 ---
 title: ExoPlayer 개발자 문서 번역 01 - ExoPlayer DEMO 실행 해보기
 date: 2020-02-10 14:02:91
-category: exoplayer
+category: ExoPlayer
 draft: false
 ---
 
