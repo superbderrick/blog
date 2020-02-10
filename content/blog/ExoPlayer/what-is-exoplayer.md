@@ -22,14 +22,30 @@ draft: false
 
 # ExoPlayer 장단점
 
+ ExoPlayer는 안드로이드의 built in 되어 있는 MediaPlayer API의 비해 많은 이점을 가지고 있습니다.  
 
- ExoPlayer는 안드로이드의 built in 되어 있는 MediaPlayer API의 비해 많은 이점을 가지고있습니다.  
- 
+ - 다양한 기기 및 버전의 안드로이드에서 기기에서 문제가 적고 동작의 변형이 적습니다.
+ - ExoPlayer는 Apk에 포함하는 라이브러리이므로 사용하는 버전을 제어 할 수 있으며 정기 응용 프로그램 업데이트의 일부로 최신 버전으로 쉽게 업데이트할 수 있습니다.
+ - 또한, 여러 유즈케이스에 맞게 확장가능하느도록 설계되어있습니다. 많은 구성 요소를 사용자 지정 구현으로 대체 할 수 있습니다.
+ - 
 
 
-Fewer device specific issues and less variation in behavior across different devices and versions of Android.
-The ability to update the player along with your application. Because ExoPlayer is a library that you include in your application apk, you have control over which version you use and you can easily update to a newer version as part of a regular application update.
-The ability to customize and extend the player to suit your use case. ExoPlayer is designed specifically with this in mind, and allows many components to be replaced with custom implementations.
+Support for playlists, as well as the ability to clip, merge and loop media.
+Support for DASH and SmoothStreaming, neither of which are supported by MediaPlayer. Many other formats are also supported. See the Supported formats page for details.
+Support for advanced HLS features, such as correct handling of #EXT-X-DISCONTINUITY tags.
+Support for Widevine common encryption on Android 4.4 (API level 19) and higher.
+The ability to quickly integrate with a number of additional libraries using official extensions. For example the IMA extension makes it easy to monetize your content using the Interactive Media Ads SDK.
+It’s important to note that there are also some disadvantages:
+
+For audio only playback on some devices, ExoPlayer may consume significantly more battery than MediaPlayer. See the Battery consumption page for details.
+Including ExoPlayer in your app adds a few hundred kilobytes to the APK size. This is likely only a concern for extremely lightweight apps. Guidance for shrinking ExoPlayer can be found on the APK shrinking page.
+
+
+
+
+
+
+
 Support for playlists, as well as the ability to clip, merge and loop media.
 Support for DASH and SmoothStreaming, neither of which are supported by MediaPlayer. Many other formats are also supported. See the Supported formats page for details.
 Support for advanced HLS features, such as correct handling of #EXT-X-DISCONTINUITY tags.
