@@ -22,39 +22,28 @@ draft: false
 
 # ExoPlayer 장단점
 
- ExoPlayer는 안드로이드의 built in 되어 있는 MediaPlayer API의 비해 많은 이점을 가지고 있습니다.  
+## ExoPlayer 장점
 
- - 다양한 기기 및 버전의 안드로이드에서 기기에서 문제가 적고 동작의 변형이 적습니다.
- - ExoPlayer는 Apk에 포함하는 라이브러리이므로 사용하는 버전을 제어 할 수 있으며 정기 응용 프로그램 업데이트의 일부로 최신 버전으로 쉽게 업데이트할 수 있습니다.
- - 또한, 여러 유즈케이스에 맞게 확장가능하느도록 설계되어있습니다. 많은 구성 요소를 사용자 지정 구현으로 대체 할 수 있습니다.
- - 
+ ExoPlayer는 안드로이드의 built in 되어 있는 MediaPlayer API의 비해 많은 이점을 가지고 있습니다.
 
-
-Support for playlists, as well as the ability to clip, merge and loop media.
-Support for DASH and SmoothStreaming, neither of which are supported by MediaPlayer. Many other formats are also supported. See the Supported formats page for details.
-Support for advanced HLS features, such as correct handling of #EXT-X-DISCONTINUITY tags.
-Support for Widevine common encryption on Android 4.4 (API level 19) and higher.
-The ability to quickly integrate with a number of additional libraries using official extensions. For example the IMA extension makes it easy to monetize your content using the Interactive Media Ads SDK.
-It’s important to note that there are also some disadvantages:
-
-For audio only playback on some devices, ExoPlayer may consume significantly more battery than MediaPlayer. See the Battery consumption page for details.
-Including ExoPlayer in your app adds a few hundred kilobytes to the APK size. This is likely only a concern for extremely lightweight apps. Guidance for shrinking ExoPlayer can be found on the APK shrinking page.
+ - 다양한 기기 및 버전의 안드로이드에서 기기에서 문제가 적고 동작의 변형이 작습니다.
+ - ExoPlayer는 Apk에 포함하는 라이브러리이므로 사용하는 버전을 제어할 수 있으며 정기 응용 프로그램 업데이트의 일부로 최신 버전으로 쉽게 업데이트할 수 있습니다.
+ - 또한, 여러 Usecase 에 맞게 확장 가능하도록 설계되어있습니다. [많은 구성 요소를 사용자 지정 구현으로 대체 할 수 있습니다.
+ - Playlist , clip , merge,loop media 기능들을 지원합니다.
+ - ExoPlayer는 안드로이드 MediaPlayer와 달리 DASH 그리고 SmoothStreaming 등 많은 스트리밍 미디어포맷들을 지원합니다.
+ - ExoPlayer 지원하는 포멧들
+ - HLS 고급 기능들을 지원합니다. 예 Handling for #EXT-X-DISCONTINUITY tags) 
+ - Widevine common encryption 기능을 안드로이드 4.4(API level 19) 이상에서 지원합니다.
+ - 구글에서 제공하는 여러 익스텐션들과 사용 가능하며 여러 추가 라이브러리와 빠르게 통합할 수 있는 있습니다. 예를 들어 IMA 익스텐션을 사용하면 양방향 미디어 광고 SDK를 사용하여 콘텐츠로 쉽게 수익을 창출할 수 있습니다.
 
 
+## ExoPlayer 단점
+- 몇몇 기기에서 오디오 만 재생하는 경우 ExoPlayer는 MediaPlayer보다 훨씬 더 많은 배터리를 소비할 수 있습니다.
+  - 배터리 소모량 페이지
+- 또한 앱따라 에 ExoPlayer를 포함 시키면 APK 크기에 몇 백 킬로바이트가 추가됩니다. (가벼운 앱에만 해당)
+- APK 축소 페이지에서 ExoPlayer 축소에 대한 지침을 찾을 수 있습니다.
 
 
-
-
-
-Support for playlists, as well as the ability to clip, merge and loop media.
-Support for DASH and SmoothStreaming, neither of which are supported by MediaPlayer. Many other formats are also supported. See the Supported formats page for details.
-Support for advanced HLS features, such as correct handling of #EXT-X-DISCONTINUITY tags.
-Support for Widevine common encryption on Android 4.4 (API level 19) and higher.
-The ability to quickly integrate with a number of additional libraries using official extensions. For example the IMA extension makes it easy to monetize your content using the Interactive Media Ads SDK.
-It’s important to note that there are also some disadvantages:
-
-For audio only playback on some devices, ExoPlayer may consume significantly more battery than MediaPlayer. See the Battery consumption page for details.
-Including ExoPlayer in your app adds a few hundred kilobytes to the APK size. This is likely only a concern for extremely lightweight apps. Guidance for shrinking ExoPlayer can be found on the APK shrinking page.
 
 
 위의 글은 [ExoPlayer 개발자 문서 사이트](https://exoplayer.dev/) 내용을 토대로 작성된 글입니다. :) 
