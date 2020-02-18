@@ -19,13 +19,17 @@ draft: false
 메인 Demo app의 source code는 ExoPlayer Git Hub project의 demo/main folder에서 찾을 수 있습니다
 아직 source code를 받지 않았으면 , Clone 후 프로젝트를 로컬 디렉터리에 복사하세요
 
-
-> git clone https://github.com/google/ExoPlayer.git
+``` 
+git clone https://github.com/google/ExoPlayer.git
+```
 
 
 그런 다음 Android Studio에서 프로젝트를 엽니다. Android Project view 타입으로 보면 데모 앱의 관련 폴더가 확장된 걸 확인 할 수 있습니다
 
-![Figure 1. The project in Android Studio ](https://github.com/superbderrick/Blog/blob/master/content/assets/googlep.jpeg?raw=true)
+![Figure 1. The project in Android Studio ](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-project.png)
+
+
+
 
 
 위의 글은 [ExoPlayer 개발자 문서 사이트](https://exoplayer.dev/) 내용을 토대로 작성된 글입니다. :) 
