@@ -41,9 +41,9 @@ Demo app을 compile하고 실행하려면 Android Studio에서 demo configuratio
 Demo app은 연결된 Android 디바이스에 설치되어 실행됩니다. 가능하면 실제 디바이스와 테스트 하는 것이 가장 좋습니다. 만약 실제 디바이스 대신에 에뮬레이터와 테스트하려면 사용하려면 지원되는 장치의 에뮬레이터 API 레벨이 23 이상인 시스템 이미지를 사용해야 합니다
 
 
+![Figure 2. SampleChooserActivity and PlayerActivity](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-screenshots.png?raw=true)
 
-
-
+#### Figure 2. SampleChooserActivity and PlayerActivity
 
 
 
