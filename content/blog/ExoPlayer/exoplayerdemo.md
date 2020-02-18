@@ -26,7 +26,7 @@ git clone https://github.com/google/ExoPlayer.git
 
 그런 다음 Android Studio에서 프로젝트를 엽니다. Android Project view 타입으로 보면 데모 앱의 관련 폴더가 확장된 걸 확인 할 수 있습니다
 
-![Figure 1. The project in Android Studio ](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-project.png)
+![Figure 1. The project in Android Studio ](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-project.png?raw=true)
 
 
 
