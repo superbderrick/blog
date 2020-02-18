@@ -24,7 +24,7 @@ git clone https://github.com/google/ExoPlayer.git
 ```
 
 
-그런 다음 Android Studio에서 프로젝트를 엽니다. Android Project view 타입으로 보면 데모 앱의 관련 폴더가 확장된 걸 확인 할 수 있습니다
+그런 다음 Android Studio에서 프로젝트를 엽니다. Android Project view 타입으로 보면 Demo app 앱의 관련 폴더가 확장된 걸 확인 할 수 있습니다
 
 
 
@@ -46,7 +46,7 @@ Demo app은 연결된 Android 디바이스에 설치되어 실행됩니다. 가�
 #### Figure 2. SampleChooserActivity and PlayerActivity
 
 
-Demo app 은 sample 목록 Activity(SampleChooserActivity)을 제공합니다. sample 항목들을 선택하면 재생을 위한 두 번째 Activity (PlayerActivity)가 열립니다. 데모에는 재생 컨트롤 및 트랙 선택 기능이 있고 또한, ExoPlayer의 Event Logger 유틸리티 클래스를 사용하여 유용한 디버그 정보를 시스템 로그에 출력할 수 있습니다.
+Demo app 은 sample 목록 Activity(SampleChooserActivity)을 제공합니다. sample 항목들을 선택하면 재생을 위한 두 번째 Activity (PlayerActivity)가 열립니다. Demo app에는 재생 컨트롤 및 트랙 선택 기능이 있고 또한, ExoPlayer의 Event Logger 유틸리티 클래스를 사용하여 유용한 디버그 정보를 시스템 로그에 출력할 수 있습니다.
 
 다음 command를 통해 확인할 수 있습니다. (다른 태그에 대한 오류 도확인 가능)
 
@@ -70,7 +70,7 @@ IMA Extension을 사용하도록 설정하면 Demo app 의 sample 목록에있�
 
 # Enabling extension decoders
 
-ExoPlayer에는 AV1, VP9, ​​Opus, FLAC 및 FFmpeg (오디오 전용)를 포함하여 번들 Software Decorder를 사용할 수있는 다양한 Extension 기능이 있습니다 Demo app 은 다음과 같이 이러한 확장을 포함하고 사용하도록 빌드 할 수 있습니다
+ExoPlayer에는 AV1, VP9, ​​Opus, FLAC 및 FFmpeg (오디오 전용)를 포함하여 번들 Software Decorder를 사용할 수있는 다양한 Extension 기능이 있습니다 Demo app 은 다음과 같이 이러한 Extension을 포함하고 사용하도록 빌드 할 수 있습니다
 
 1. 사용하려는 extension을 포함해서 빌드를 진행하면 됩니다. 각각의 Extension의 특이사항은 각각의 Readme.md 파일을 참고하세요
 2. Android Studio에서 Build varient를 withExtensionsDebug 또는 withExtensionsRelease로 설정해야합니다
@@ -80,8 +80,122 @@ ExoPlayer에는 AV1, VP9, ​​Opus, FLAC 및 FFmpeg (오디오 전용)를 포�
 
 #### Figure 4. Selecting the demo_extDebug build variant
 
-기본적으로 extension decoder는 적합한 플랫폼 디코더가없는 경우에만 사용됩니다. 아래 섹션에 설명 된대로 확장 디코더를 선호하도록 지정할 수 있습니다
+기본적으로 extension decoder는 적합한 플랫폼 디코더가없는 경우에만 사용됩니다. 아래 섹션에 설명 된대로 Extension 디코더를 선호하도록 지정할 수 있습니다
 
+
+# Playing your own content
+
+Demo app 에서 자신의 콘텐츠를 재생하는 방법에는 여러 가지가 있습니다.
+
+1. Editing assets/media.exolist.json
+
+
+Demo app 에 나열된 sample contents들은 asset / media.exolist.json에서로드됩니다 헤당 JSON 파일을 편집하면 Demoo app 에서 Sample contents들을 추가 및 제거 할 수 있습니다 
+스키마는 다음과 같습니다. 여기서 [O]는 선택적 속성을 나타냅니다.
+
+``` 
+[
+  {
+    "name": "Name of heading",
+    "samples": [
+      {
+        "name": "Name of sample",
+        "uri": "The URI of the sample",
+        "extension": "[O] Sample type hint. Values: mpd, ism, m3u8",
+        "drm_scheme": "[O] Drm scheme if protected. Values: widevine, playready, clearkey",
+        "drm_license_url": "[O] URL of the license server if protected",
+        "drm_key_request_properties": "[O] Key request headers if protected",
+        "drm_multi_session": "[O] Enables key rotation if protected",
+        "ad_tag_uri": "[O] The URI of an ad tag, if using the IMA extension"
+        "spherical_stereo_mode": "[O] Enables spherical view. Values: mono, top_bottom, left_right",
+        "subtitle_uri": "[O] The URI of a subtitle sidecar file",
+        "subtitle_mime_type": "[O] The MIME type of subtitle_uri (required if subtitle_uri is set)",
+        "subtitle_language": "[O] The BCP47 language code of the subtitle file (ignored if subtitle_uri is not set)",
+      },
+      ...etc
+    ]
+  },
+  ...etc
+]
+``` 
+
+
+Sample playlist는 스키마를 사용하여 지정할 수 있습니다
+
+``` 
+[
+  {
+    "name": "Name of heading",
+    "samples": [
+      {
+        "name": "Name of playlist sample",
+        "playlist": [
+          {
+            "uri": "The URI of the first sample in the playlist",
+            "extension": "[O] Sample type hint. Values: mpd, ism, m3u8"
+            "drm_scheme": "[O] Drm scheme if protected. Values: widevine, playready, clearkey",
+            "drm_license_url": "[O] URL of the license server if protected",
+            "drm_key_request_properties": "[O] Key request headers if protected",
+            "drm_multi_session": "[O] Enables key rotation if protected"
+          },
+          {
+            "uri": "The URI of the first sample in the playlist",
+            "extension": "[O] Sample type hint. Values: mpd, ism, m3u8"
+            "drm_scheme": "[O] Drm scheme if protected. Values: widevine, playready, clearkey",
+            "drm_license_url": "[O] URL of the license server if protected",
+            "drm_key_request_properties": "[O] Key request headers if protected",
+            "drm_multi_session": "[O] Enables key rotation if protected"
+          },
+          ...etc
+        ]
+      },
+      ...etc
+    ]
+  },
+  ...etc
+]
+
+```     
+
+
+Key request header가 필요한 경우 각 헤더에 대한 문자열 속성을 포함하는 객체로 지정됩니다.
+
+```
+"drm_key_request_properties": {
+  "name1": "value1",
+  "name2": "value2",
+  ...etc
+}
+```
+In the sample chooser activity, the overflow menu contains options for specifying whether to prefer extension decoders, and which ABR algorithm should be used.
+
+sample 목록 Activity(SampleChooserActivity)에서 overflow menu  메뉴에는 Extension 디코더 선호 여부 및 사용해야하는 ABR 알고리즘을 지정하는 옵션이 있습니다
+
+
+2. Loading an external exolist.json file
+
+
+ Demo app * .exolist.json 규칙에 따라 명명 된 외부 JSON 파일을로드 할 수 있습니다
+ 예를 들어 https://yourdomain.com/samples.exolist.json에서 이러한 파일을 호스팅하는 경우 다음을 사용하여 Demo app에서 파일을 열 수 있습니다
+
+```
+adb shell am start -d https://yourdomain.com/samples.exolist.json
+```
+Demo app 이 설치된 장치에서 * .exolist.json link (예 : 브라우저 또는 이메일 클라이언트)를 클릭하면 Demo app 에서 링크가 열립니다. 따라서 * .exolist.json JSON 파일을 호스팅하면 Demo app 앱에서 다른 사람이 시도 할 수있는 간단한 컨텐츠 배포 방법이 제공됩니다
+
+
+3. Firing an intent
+
+Intents can be used to bypass the list of samples and launch directly into playback. To play a single sample set the intent’s action to com.google.android.exoplayer.demo.action.VIEW and its data URI to that of the sample to play. Such an intent can be fired from the terminal using:
+
+
+intent 사용하여 샘플 목록을 무시하고 직접 재생을 시작할 수 있습니다. 
+단일 샘플을 재생하려면 인 텐트의 동작을 com.google.android.exoplayer.demo.action.VIEW로 설정하고 데이터 URI를 재생할 샘플의 데이터 URI로 설정합니다. 이러한 방법은 터미널에서 바로 영상을 재생 할  수 있습니다
+
+```
+adb shell am start -a com.google.android.exoplayer.demo.action.VIEW \
+    -d https://yourdomain.com/sample.mp4
+```
 
 
 
