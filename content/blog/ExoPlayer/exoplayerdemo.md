@@ -55,7 +55,15 @@ adb logcat EventLogger:V *:E
 
 ``` 
 
+# Enabling interactive media ads
 
+ExoPlayer와 Interactive Media Ads SDK를 사용하면 Content로 쉽게 수익을 창출할 수 있습니다. 
 
+Demo app에서 IMA Extension을 사용하려면 Android Studio에서 Build varient를 withExtensionsDebug 또는 withExtensionsRelease로 설정하면 됩니다.
+
+![Figure 3. Selecting the withExtensionsDebug build variant](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-screenshots.png?raw=true)
+
+#### Figure 3. Selecting the withExtensionsDebug build variant
+ 
 
 위의 글은 [ExoPlayer 개발자 문서 사이트](https://exoplayer.dev/) 내용을 토대로 작성된 글입니다. :) 
