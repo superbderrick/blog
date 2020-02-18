@@ -57,16 +57,32 @@ adb logcat EventLogger:V *:E
 
 # Enabling interactive media ads
 
-ExoPlayer와 Interactive Media Ads SDK를 사용하면 Content로 쉽게 수익을 창출할 수 있습니다. 
-
-Demo app에서 IMA Extension을 사용하려면 Android Studio에서 Build varient를 withExtensionsDebug 또는 withExtensionsRelease로 설정하면 됩니다.
+ExoPlayer와 Interactive Media Ads SDK를 사용하면 Content로 쉽게 수익을 창출할 수 있습니다
+Demo app에서 IMA Extension을 사용하려면 Android Studio에서 Build varient를 withExtensionsDebug 또는 withExtensionsRelease로 설정하면 됩니다
 
 ![Figure 3. Selecting the withExtensionsDebug build variant](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-build-variants.png?raw=true)
 
 #### Figure 3. Selecting the withExtensionsDebug build variant
  
 
-IMA Extension을 사용하도록 설정하면 Demo app 의 sample 목록에있는 'IMA Sample' 을 찾을 수 있습니다.
+IMA Extension을 사용하도록 설정하면 Demo app 의 sample 목록에있는 'IMA Sample' 을 찾을 수 있습니다
+
+
+# Enabling extension decoders
+
+ExoPlayer에는 AV1, VP9, ​​Opus, FLAC 및 FFmpeg (오디오 전용)를 포함하여 번들 Software Decorder를 사용할 수있는 다양한 Extension 기능이 있습니다 Demo app 은 다음과 같이 이러한 확장을 포함하고 사용하도록 빌드 할 수 있습니다
+
+1. 사용하려는 extension을 포함해서 빌드를 진행하면 됩니다. 각각의 Extension의 특이사항은 각각의 Readme.md 파일을 참고하세요
+2. Android Studio에서 Build varient를 withExtensionsDebug 또는 withExtensionsRelease로 설정해야합니다
+3. Compile후 설치를 진행합니다
+
+![Figure Figure 4. Selecting the demo_extDebug build variant](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-build-variants.png?raw=true)
+
+#### Figure 4. Selecting the demo_extDebug build variant
+
+기본적으로 extension decoder는 적합한 플랫폼 디코더가없는 경우에만 사용됩니다. 아래 섹션에 설명 된대로 확장 디코더를 선호하도록 지정할 수 있습니다
+
+
 
 
 위의 글은 [ExoPlayer 개발자 문서 사이트](https://exoplayer.dev/) 내용을 토대로 작성된 글입니다. :) 
