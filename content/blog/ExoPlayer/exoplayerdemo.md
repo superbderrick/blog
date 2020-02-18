@@ -167,12 +167,11 @@ Key request header가 필요한 경우 각 헤더에 대한 문자열 속성을 
   ...etc
 }
 ```
-In the sample chooser activity, the overflow menu contains options for specifying whether to prefer extension decoders, and which ABR algorithm should be used.
 
 sample 목록 Activity(SampleChooserActivity)에서 overflow menu  메뉴에는 Extension 디코더 선호 여부 및 사용해야하는 ABR 알고리즘을 지정하는 옵션이 있습니다
 
 
-2. Loading an external exolist.json file
+1. Loading an external exolist.json file
 
 
  Demo app * .exolist.json 규칙에 따라 명명 된 외부 JSON 파일을로드 할 수 있습니다
@@ -186,8 +185,6 @@ Demo app 이 설치된 장치에서 * .exolist.json link (예 : 브라우저 또
 
 3. Firing an intent
 
-Intents can be used to bypass the list of samples and launch directly into playback. To play a single sample set the intent’s action to com.google.android.exoplayer.demo.action.VIEW and its data URI to that of the sample to play. Such an intent can be fired from the terminal using:
-
 
 intent 사용하여 샘플 목록을 무시하고 직접 재생을 시작할 수 있습니다. 
 단일 샘플을 재생하려면 인 텐트의 동작을 com.google.android.exoplayer.demo.action.VIEW로 설정하고 데이터 URI를 재생할 샘플의 데이터 URI로 설정합니다. 이러한 방법은 터미널에서 바로 영상을 재생 할  수 있습니다
@@ -196,6 +193,7 @@ intent 사용하여 샘플 목록을 무시하고 직접 재생을 시작할 수
 adb shell am start -a com.google.android.exoplayer.demo.action.VIEW \
     -d https://yourdomain.com/sample.mp4
 ```
+
 
 
 
