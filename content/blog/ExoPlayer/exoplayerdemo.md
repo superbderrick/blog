@@ -1,5 +1,5 @@
 ---
-title: ExoPlayer 개발자 문서 번역 01 - ExoPlayer DEMO 실행 해보기
+title: ExoPlayer 개발자 문서 번역 01 - ExoPlayer Demo 실행 해보기
 date: 2020-02-10 14:02:91
 category: ExoPlayer
 draft: false
@@ -44,6 +44,16 @@ Demo app은 연결된 Android 디바이스에 설치되어 실행됩니다. 가�
 ![Figure 2. SampleChooserActivity and PlayerActivity](https://github.com/superbderrick/Blog/blob/master/content/blog/ExoPlayer/demo-app-screenshots.png?raw=true)
 
 #### Figure 2. SampleChooserActivity and PlayerActivity
+
+
+Demo app 은 샘플 목록 Activity(SampleChooserActivity)을 제공합니다. 샘플 항목들을 선택하면 재생을 위한 두 번째 Activity (PlayerActivity)가 열립니다. 데모에는 재생 컨트롤 및 트랙 선택 기능이 있고 또한, ExoPlayer의 Event Logger 유틸리티 클래스를 사용하여 유용한 디버그 정보를 시스템 로그에 출력할 수 있습니다.
+
+다음 command를 통해 확인할 수 있습니다. (다른 태그에 대한 오류 도확인 가능)
+
+``` 
+adb logcat EventLogger:V *:E
+
+``` 
 
 
 
