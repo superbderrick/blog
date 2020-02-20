@@ -195,6 +195,49 @@ adb shell am start -a com.google.android.exoplayer.demo.action.VIEW \
 ```
 
 
+Firing an intent 추가 옵션들
+
+- 샘플 구성 추가 옵션
+  - extension [String] Sample type hint -  유효한 값 : mpd, ism, m3u8.
+  - prefer_extension_decoders [Boolean] Extension 디코더가 내장 플랫폼 디코더보다 선호되는지 설정 여부.
+  - drm_scheme [String] DRM scheme을 보호가능지 여부 - 유효한 값 : widevine, playready 및 clearkey,  DRM scheme UUIDs도가능.
+  - drm_license_url [String] 라이센스 서버의 URL도 보호가능한지 여부
+  - drm_key_request_properties [String array] 키 Request의 헤더도 보호가능하지 여부 - name1, value1, name2, value2 등으로 압축됩니다. 
+  - drm_multi_session : [Boolean] Key rotation 설정.
+  - ad_tag_uri [String] IMA 확장을 사용하는 경우 광고 태그의 URI.
+  - sphere_stereo_mode [String] sphere_stereo_mode 설정 -  값 : mono, top_bottom 및 left_right.
+  - subtitle_uri [String] 자막  파일의 URI입니다.
+  - subtitle_mime_type : [String] subtitle_uri의 MIME 유형 - (subtitle_uri가 설정된 경우 필요).
+  - subtitle_language : [String] 자막 파일의 BCP47 언어 코드입니다 (subtitle_uri가 설정되지 않은 경우 무시).
+
+- 플레이어 구성 옵션
+  - abr_algorithm [String] ABR 설정여부 - default or randome.
+  - tunneling [Boolean] tunneling 기능 설정.
+
+
+an optional string extra can be set with --es (e.g., --es extension mpd).
+ An optional boolean extra can be set with --ez (e.g., --ez prefer_extension_decoders TRUE). An optional string array extra can be set with --esa (e.g., --esa drm_key_request_properties name1,value1).
+
+
+adb shell을 사용하여 인 텐트를 시작 할경우 각자료형에 parameter는 다음과 같이 설정 할 수 있습니다.
+- String --es (Ex  --es extension mpd)
+- Boolean -ez (Ex --ez prefer_extension_decoders TRUE)
+- Array --esa (Ex --esa drm_key_request_properties name1, value1)
+
+
+Sample 
+
+
+```
+adb shell am start -a com.google.android.exoplayer.demo.action.VIEW_LIST \
+    --es uri_0 https://a.com/sample1.mp4 \
+    --es uri_1 https://b.com/sample2.fake_mpd \
+    --es extension_1 mpd
+
+```
+
+
+
 
 
 위의 글은 [ExoPlayer 개발자 문서 사이트](https://exoplayer.dev/) 내용을 토대로 작성된 글입니다. :) 
