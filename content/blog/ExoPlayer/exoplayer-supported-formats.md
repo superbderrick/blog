@@ -1,7 +1,7 @@
 ---
 title: ExoPlayer 개발자 문서 번역 02 - ExoPlayer Supported formats
 date: 2020-02-21 13:02:78
-category: exoplayer
+category: Exoplayer
 draft: false
 ---
 
