@@ -17,6 +17,8 @@ OAuth 2.0 is the industry-standard protocol for authorization. OAuth 2.0 focuses
 
 각각 의 역할
 
+![Parts](https://github.com/superbderrick/Blog/blob/master/content/blog/OAuth2%20/part.png?raw=true)
+
 
 
 
