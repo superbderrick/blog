@@ -25,7 +25,7 @@ DASH, SmoothStreaming 및 HLS와 같은 Adaptive streaming technologies 형 스�
 DASH
 
 Exoplayer는 DASH의 여러 컨테이너 format을 지원합니다. Media streams은 반드시 Demuxing되어야하고,
-비디오, 오디오 및 텍스트는 DASH 매니페스트의 고유 한 AdaptationSet 요소에 정의되어야합니다 (CEA-608은 예외).  또한 오디오 및 비디오에 포함된 sample format도 지원해야합니다 (자세한 내용은 sample format 섹션 참조)
+비디오, 오디오 및 텍스트는 DASH 매니페스트의 고유 한 AdaptationSet 요소에 정의되어야합니다 (CEA-608은 예외).  또한 오디오 및 비디오에 포함된 sample format도 지원해야합니다 (자세한 내용은 sample format 표 참조)
 
 
 Feature	Supported	Comment
@@ -44,8 +44,10 @@ Content protection
 Widevine	YES	API 19+ (“cenc” scheme) and 25+ (“cbcs”, “cbc1” and “cens” schemes)
 PlayReady SL2000	YES	Android TV only
 ClearKey	YES	API 21+
+
 SmoothStreaming
-ExoPlayer supports SmoothStreaming with the FMP4 container format. Media streams must be demuxed, meaning that video, audio and text must be defined in distinct StreamIndex elements in the SmoothStreaming manifest. The contained audio and video sample formats must also be supported (see the sample formats section for details).
+
+Exoplayer는 SmoothStreaming의 FMP4 컨테이너 format을 지원합니다. Media streams은 반드시 Demuxing되어야하고,비디오, 오디오 및 텍스트는 SmoothStreaming의 매니페스트의 고유 한  StreamIndex 요소에 정의되어야합니다 또한 오디오 및 비디오에 포함된 sample format도 지원해야합니다 (자세한 내용은 sample format 표 참조)
 
 Feature	Supported	Comment
 Containers	 	 
