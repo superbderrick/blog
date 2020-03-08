@@ -2,7 +2,7 @@ module.exports = {
   title: `Derrick's World`,
   description: `Derrick's development blog`,
   author: `Derrick`,
-  introduction: `Enthusiast about how technology can be applied to improve daily life and for public welfare , Expert in Android and iOS development for video streaming and Fusing Unity and iOS or Android App development  `,
+  introduction: `Enthusiast about how technology can be applied to improve daily life and for public welfare `,
   siteUrl: `https://jinyoung.dev`, 
   social: {
     twitter: ``, 
