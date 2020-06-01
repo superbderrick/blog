@@ -1,5 +1,5 @@
 ---
-title: [Android][ExoPlayer] 2020.02.21 ExoPlayer 개발자 문서 번역 02 - ExoPlayer Supported formats
+title: Android,ExoPlayer,2020.02.21 ExoPlayer 개발자 문서 번역 02 - ExoPlayer Supported formats
 date: 2020-02-21 13:02:78
 category: ExoPlayer
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: [Android][ExoPlayer] 2020.02.10 ExoPlayer 개발자 문서 번역 01 - ExoPlayer Demo 실행 해보기
+title: Android,ExoPlayer,2020.02.10 ExoPlayer 개발자 문서 번역 01 - ExoPlayer Demo 실행 해보기
 date: 2020-02-10 14:02:91
 category: ExoPlayer
 draft: false

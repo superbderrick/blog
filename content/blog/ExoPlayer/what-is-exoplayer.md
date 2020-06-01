@@ -1,5 +1,5 @@
 ---
-title: [Android][ExoPlayer] 2020.02.05 ExoPlayer 개발자 문서 번역 00 - ExoPlayer 란?
+title: Android,ExoPlayer,2020.02.05 ExoPlayer 개발자 문서 번역 00 - ExoPlayer 란?
 date: 2020-02-05 10:02:68
 category: ExoPlayer
 draft: false
