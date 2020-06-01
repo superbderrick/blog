@@ -1,5 +1,5 @@
 ---
-title: Hello Cocos2D-x
+title: [Cocos2DX][Concept][2020.03.22] Hello Cocos2D-x
 date: 2020-03-22 15:03:70
 category: Cocos2DX
 draft: false
