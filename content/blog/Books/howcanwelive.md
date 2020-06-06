@@ -6,7 +6,9 @@ draft: false
 ---
 
 Title : 어떻게 살것인가
+
 Date: 2020.05
+
 Writer : 유시민
  
 
