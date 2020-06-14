@@ -11,7 +11,7 @@ Date: 2020.05
 
 Writer : 유시민
 
-<img src="https://github.com/superbderrick/Blog/blob/master/content/blog/Books/logos/howcanwelive.png?raw=true" width="400" height="400" />
+<img src="https://github.com/superbderrick/Blog/blob/master/content/blog/Books/logos/howcanwelive.png?raw=true" width="200" height="200" />
 
 >>
 >>
