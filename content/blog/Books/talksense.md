@@ -7,7 +7,7 @@ draft: false
 
 말센스 , 2020.05
 
-<img src="https://github.com/superbderrick/Blog/blob/master/content/blog/Books/talksense/marsense.png?raw=true" width="400" height="400" />
+<img src="https://github.com/superbderrick/Blog/blob/master/content/blog/Books/logos/marsense.png?raw=true" width="400" height="400" />
 
 
 >>
