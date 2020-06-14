@@ -13,10 +13,6 @@ Writer : 유시민
 
 <img src="https://github.com/superbderrick/Blog/blob/master/content/blog/Books/logos/howcanwelive.png?raw=true" width="200" height="200" />
 
->>
->>
-
- 
 
 P78 - ‘하고 싶어서 마음이 설레는 일을 하자 그 일을 열정적으로 남보다 잘하자. 그리고 그걸로 밥도먹자
 

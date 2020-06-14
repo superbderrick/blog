@@ -5,15 +5,13 @@ category: Books
 draft: false
 ---
 
-말센스 , 2020.05
+Title : 말센스
+
+Date: 2020.05
+
+Writer : 셀레스트 헤들리
 
 <img src="https://github.com/superbderrick/Blog/blob/master/content/blog/Books/logos/marsense.png?raw=true" width="200" height="200" />
-
-
->>
->>
->>
->>
 
 
 대화에서 제일 중요한 것은 경청이다
