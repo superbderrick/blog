@@ -10,9 +10,11 @@ Title : 심리학이 이렇게 쓸모 있을 줄이야
 
 Date: 2020.06
 
-Writer : 류싀안
 
-<img src="https://github.com/superbderrick/Blog/blob/master/content/blog/Books/logos/howcanwelive.png?raw=true" width="200" height="200" />
+## 심리학이 이렇게 쓸모 있을 줄이야
+[심리학이 이렇게 쓸모 있을 줄이야](https://book.naver.com/bookdb/price.nhn?bid=14007772)
+
+
 
 
 P6 ‘인생을 사는 건 코딩 작업을 하는 것과 같은 거야. 처음에는 분명 온갖 오류코드가 제동을 걸겠지. 하지만 인내심을 갖고 버그를 해결해나간다면 문제 될 일은 없어.’
