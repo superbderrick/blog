@@ -1,7 +1,7 @@
 ---
-title: Psychologyissouseful
+title: 심리학이 이렇게 쓸모 있을 줄이야
 date: 2020-06-28 13:06:99
-category: books
+category: Books
 draft: false
 ---
 
