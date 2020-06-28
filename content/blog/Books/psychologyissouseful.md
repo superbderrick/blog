@@ -10,6 +10,8 @@ Title : 심리학이 이렇게 쓸모 있을 줄이야
 
 Date: 2020.06
 
+Writer : 류시안
+
 
 ## 심리학이 이렇게 쓸모 있을 줄이야
 [심리학이 이렇게 쓸모 있을 줄이야](https://book.naver.com/bookdb/price.nhn?bid=14007772)
