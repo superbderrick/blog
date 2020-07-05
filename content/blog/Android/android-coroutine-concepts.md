@@ -1,5 +1,5 @@
 ---
-title: Android coroutine concepts
+title: Android,coroutines,2020.07.05 Android coroutines study note 00
 date: 2020-07-05 16:07:53
 category: Android
 draft: false
