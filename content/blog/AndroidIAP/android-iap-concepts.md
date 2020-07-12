@@ -1,5 +1,5 @@
 ---
-title: AndroidIAP Overview,2020.07.05 Android IAP Overview
+title: 2020.07.05 Android IAP Overview
 date: 2020-07-05 17:07:79
 category: AndroidIAP
 draft: false
