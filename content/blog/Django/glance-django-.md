@@ -1,5 +1,5 @@
 ---
-title: Django,Concept,2020.05.31 Glance Django !
+title: 2020.05.31 Glance Django concepts
 date: 2020-05-31 14:05:03
 category: Django
 draft: false

@@ -1,5 +1,5 @@
 ---
-title:  코딩 호러가 들려주는 진짜 소프트웨어 개발이야기
+title: 코딩 호러가 들려주는 진짜 소프트웨어 개발이야기
 date: 2020-06-28 14:06:20
 category: Books
 draft: false
