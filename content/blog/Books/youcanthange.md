@@ -1,7 +1,7 @@
 ---
 title: 당신은 타인을 바꿀수 없다
 date: 2020-07-12 17:07:24
-category: books
+category: Books
 draft: false
 ---
 
