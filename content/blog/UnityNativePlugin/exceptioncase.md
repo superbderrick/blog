@@ -1,5 +1,5 @@
 ---
-title: 2020.06.29 ClassNotFoundException on Unity Android plugin
+title: ClassNotFoundException on Unity Android plugin
 date: 2020-06-29 21:06:93
 category: UnityNativePlugin
 draft: false
