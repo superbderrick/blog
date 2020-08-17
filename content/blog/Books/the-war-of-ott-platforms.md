@@ -1,7 +1,7 @@
 ---
-title: the war of ott platforms
+title: OTT 플랫폼 대전쟁
 date: 2020-08-17 12:08:72
-category: books
+category: Books
 draft: false
 ---
 
