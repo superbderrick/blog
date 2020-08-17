@@ -1,5 +1,5 @@
 ---
-title: pod lib lint "xcodebuild: error: SWIFT_VERSION '3.0' is unsupported case"
+title: pod lib lint xcodebuild Errorcase  SWIFT_VERSION 3.0 is unsupported case
 date: 2020-08-17 15:08:07
 category: cocoapods
 draft: false
