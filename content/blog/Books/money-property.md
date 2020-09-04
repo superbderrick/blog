@@ -1,5 +1,5 @@
 ---
-title: Money property
+title: 돈의 속성
 date: 2020-09-04 19:09:05
 category: Books
 draft: false
