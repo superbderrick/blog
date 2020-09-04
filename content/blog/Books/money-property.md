@@ -1,7 +1,7 @@
 ---
 title: Money property
 date: 2020-09-04 19:09:05
-category: books
+category: Books
 draft: false
 ---
 
