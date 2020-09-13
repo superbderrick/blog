@@ -2,10 +2,10 @@
 title: What is the SummerPlayerView and Goals
 date: 2020-09-13 20:09:09
 category: SummerPlayerView
-draft: true
+draft: false
 ---
 
-What is SummerPlayerView
+SummerPlayerView 란?
 
 SummerPlayerView는 Youtube kids app에서 비디오가 재생되는 화면을 쉽게 구성할 수 있는 iOS Custom UI Open source입니다
 
