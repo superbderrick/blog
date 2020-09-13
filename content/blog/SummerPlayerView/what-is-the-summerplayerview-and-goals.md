@@ -1,5 +1,5 @@
 ---
-title: What is the SummerPlayerView and Goals
+title: What is the SummerPlayerView
 date: 2020-09-13 20:09:09
 category: SummerPlayerView
 draft: false
@@ -26,5 +26,7 @@ You tube kids 앱에서 취하고 있는 Player UI를 구성하고 있었습니�
 
 
 작업 내용은 아래의 repostiroy에서 확인 가능합니다 : ) 
+
+https://github.com/superbderrick/SummerPlayerView
 
 
