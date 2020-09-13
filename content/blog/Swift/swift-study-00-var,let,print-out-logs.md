@@ -1,5 +1,5 @@
 ---
-title: Swift grammar Study 01 Var,let,How to Print out logs
+title: Swift grammar study var,let,howw to print out logs
 date: 2020-09-13 19:09:25
 category: Swift
 draft: false
