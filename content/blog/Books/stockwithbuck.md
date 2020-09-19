@@ -1,7 +1,7 @@
 ---
 title: 직장인 100만원으로 주식 투자하기
 date: 2020-09-19 20:09:95
-category: books
+category: Books
 draft: false
 ---
 

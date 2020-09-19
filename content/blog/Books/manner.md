@@ -1,7 +1,7 @@
 ---
 title: 성숙한 어른이 갖춰야 할 좋은 심리습관
 date: 2020-09-19 20:09:79
-category: books
+category: Books
 draft: false
 ---
 
