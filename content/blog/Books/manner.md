@@ -1,12 +1,12 @@
 ---
-title: manner
+title: 성숙한 어른이 갖춰야 할 좋은 심리습관
 date: 2020-09-19 20:09:79
 category: books
 draft: false
 ---
 
 
-Title : 성숙한 어른이 갖춰야할 좋은 심리습관
+Title : 성숙한 어른이 갖춰야 할 좋은 심리습관
 
 Date: 2020.09
 
