@@ -1,7 +1,7 @@
 ---
 title: Swift features
 date: 2020-09-20 23:09:93
-category: swift
+category: Swift
 draft: false
 ---
 
