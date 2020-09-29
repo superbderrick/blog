@@ -1,7 +1,7 @@
 ---
 title: Optional unwrapping
 date: 2020-09-29 14:09:21
-category: swift
+category: Swift
 draft: false
 ---
 
