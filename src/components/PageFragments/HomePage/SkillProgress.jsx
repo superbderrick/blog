@@ -25,19 +25,7 @@ const SkillsProgress = () => (
           text="NodeJS"
         />
       </Col>
-      <Col xs={24} sm={24} md={12}>
-        <ProgressBar
-          percent={70}
-          text="SDK Development"
-        />
 
-        <ProgressBar
-          percent={70}
-          text="App Development"
-        />
-      </Col>
-
-      
     </Row>
   </div>
 );
