@@ -24,17 +24,11 @@ module.exports = {
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
-    Cocoapods: {
-      name: 'Cocoapods',
-      description: 'Cocoapods is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
+    javascript: {
+      name: 'javascript',
+      description: 'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
       color: '#f0da50',
     },
-    python: {
-      name: 'python',
-      description: 'A general purpose programming language that is widely used for developing various applications.',
-      color: '#f9c646',
-    },
-
     nodejs: {
       name: 'Node.js',
       description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
@@ -70,7 +64,15 @@ module.exports = {
       description: 'CSS is used to style the HTML element and to give a very fancy look for the web application.',
       color: '#43ace0',
     },
-
-
+    python: {
+      name: 'python',
+      description: 'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
+    cocoapods: {
+      name: 'cocoapods',
+      description: 'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
   },
 };

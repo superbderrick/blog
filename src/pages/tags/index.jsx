@@ -21,6 +21,10 @@ const Tags = ({ data }) => {
     .sort(); // Remove duplicates and sort values
   // const tagPage = Config.pages.tag;
   const tagData = Config.tags;
+
+
+  console.log("derrick.length : ",Config.tags);
+
   return (
     <Layout className="outerPadding">
       <Layout className="container">
