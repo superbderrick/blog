@@ -2,7 +2,7 @@
 title: "Pod lib lint Error case  SWIFT_VERSION 3.0 is unsupported case"
 path: blog/hello-world-rolwins-first-blog
 tags: [Cocoapods]
-cover: ./rolwin.jpg
+cover: ./cocoapods.jpg
 date: 2020-08-17
 excerpt: Blogging and writing about tech stacks is always been my thing. I like to experiment with different technologies and write my views on them. Web technologies has always been my passion. Check my blog for codebits on various web technologies.
 ---
