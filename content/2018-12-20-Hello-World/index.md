@@ -4,7 +4,7 @@ path: blog/hello-world-rolwins-first-blog
 tags: [Cocoapods]
 cover: ./cocoapods.jpg
 date: 2020-08-17
-excerpt: Blogging and writing about tech stacks is always been my thing. I like to experiment with different technologies and write my views on them. Web technologies has always been my passion. Check my blog for codebits on various web technologies.
+excerpt: test
 ---
 
 일반적으로 cocoapods을 이용해 iOS용 오픈소스를 배포하는 경우에 Terminal에서 Pod command를 이용합니다
