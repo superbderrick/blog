@@ -1,70 +1,72 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+/* Vendor imports */
+const path = require('path');
+/* App imports */
+const config = require('./config');
+const utils = require('./src/utils/pageUtils');
 
-exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
-  const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
-
-  return graphql(
-    `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                category
-                draft
-              }
+  return graphql(`
+    {
+      allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
+        edges {
+          node {
+            frontmatter {
+              path
+              tags
             }
+            fileAbsolutePath
           }
         }
       }
-    `
-  ).then(result => {
-    if (result.errors) {
-      throw result.errors
-    }
+    }    
+  `).then((result) => {
+    if (result.errors) return Promise.reject(result.errors);
 
-    // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges.filter(
-      ({ node }) => !node.frontmatter.draft && !!node.frontmatter.category
-    )
+    const { allMarkdownRemark } = result.data;
 
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
+    /* Post pages */
+    allMarkdownRemark.edges.forEach(({ node }) => {
+      // Check path prefix of post
+      if (node.frontmatter.path.indexOf(config.pages.blog) !== 0) {
+        // eslint-disable-next-line no-throw-literal
+        throw `Invalid path prefix: ${node.frontmatter.path}`;
+      }
 
       createPage({
-        path: post.node.fields.slug,
-        component: blogPostTemplate,
+        path: node.frontmatter.path,
+        component: path.resolve('src/templates/post/post.jsx'),
         context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
+          postPath: node.frontmatter.path,
+          translations: utils.getRelatedTranslations(node, allMarkdownRemark.edges),
         },
-      })
-    })
-  })
-}
+      });
+    });
+    const regexForIndex = /index\.md$/;
+    // Posts in default language, excluded the translated versions
+    const defaultPosts = allMarkdownRemark.edges
+      .filter(({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex));
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+    /* Tag pages */
+    const allTags = [];
+    defaultPosts.forEach(({ node }) => {
+      node.frontmatter.tags.forEach((tag) => {
+        if (allTags.indexOf(tag) === -1) allTags.push(tag);
+      });
+    });
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    allTags
+      .forEach((tag) => {
+        createPage({
+          path: utils.resolvePageUrl(config.pages.tag, tag),
+          component: path.resolve('src/templates/tags/index.jsx'),
+          context: {
+            tag,
+          },
+        });
+      });
 
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
-}
+    return 1;
+  });
+};
