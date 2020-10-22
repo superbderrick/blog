@@ -28,23 +28,7 @@ const AboutMe = () => {
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
       </div>
       <Row gutter={[20, 20]}>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="location.png"
-            height={60}
-            alt="location image"
-            textH4="Where I am"
-            textH3="Seoul, Korea"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
-          />
-        </Col>
+
 
       </Row>
     </>
