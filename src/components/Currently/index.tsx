@@ -18,7 +18,7 @@ const Currently: React.FC = () => {
   return (
     <>
       <div id="working" />
-      <section className="section modular-features offset-box">
+      {/* <section className="section modular-features offset-box">
         <div className="container grid-sm">
           <div className="frame-box without-offset-top">
             <h3>Currently working at</h3>
@@ -32,7 +32,7 @@ const Currently: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

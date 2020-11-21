@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       </section>
       <section className="container grid-lg">
         <ul className="copyright d-inline-flex list-unstyled">
-          <li>© {new Date().getFullYear()} Rubén Rodríguez </li>
+          <li>© {new Date().getFullYear()} Derrick </li>
           <li>
             <ul className=" d-inline-flex list-unstyled">
               {footerLinks.map(link => {
