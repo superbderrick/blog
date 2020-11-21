@@ -62,25 +62,26 @@
   ],
   "userLinks": [
     {
-      "label": "Twitter",
-      "url": "http://twitter.com/@_rubenr",
-      "iconClassName": "fa fa-twitter"
-    },
-    {
       "label": "LinkedIn",
-      "url": "http://linkedin.com/in/rubenrodriguezpaz",
+      "url": "https://www.linkedin.com/in/sensational/",
       "iconClassName": "fa fa-linkedin"
     },
     {
       "label": "GitHub",
-      "url": "http://github.com/rubenRP",
+      "url": "https://github.com/superbderrick",
       "iconClassName": "fa fa-github"
     },
     {
       "label": "Instagram",
-      "url": "http://instagram.com/_rubenr",
+      "url": "https://www.instagram.com/derricks2/",
       "iconClassName": "fa fa-instagram"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/jinyeoung.kang/",
+      "iconClassName": "fa fa-facebook"
     }
+
   ],
   "certifications": [
     {
