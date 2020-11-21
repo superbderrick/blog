@@ -1,72 +1,135 @@
-/* Vendor imports */
-const path = require('path');
-/* App imports */
-const config = require('./config');
-const utils = require('./src/utils/pageUtils');
+const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  const { createPage } = actions
 
-  return graphql(`
-    {
-      allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
-        edges {
-          node {
-            frontmatter {
-              path
-              tags
+  const blogPost = path.resolve(`./src/templates/blog-post.tsx`)
+  const defaultPage = path.resolve(`./src/templates/page.tsx`)
+  const blogPage = path.resolve(`./src/templates/blog-list.tsx`)
+  const tabPage = path.resolve(`./src/templates/tag.tsx`)
+  const categoryPage = path.resolve(`./src/templates/category.tsx`)
+
+  const result = await graphql(
+    `
+      {
+        pagesGroup: allMdx(
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+          filter: { frontmatter: { published: { ne: false } } }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              fileAbsolutePath
+              frontmatter {
+                title
+              }
             }
-            fileAbsolutePath
+          }
+        }
+        tagsGroup: allMdx(limit: 2000) {
+          group(field: frontmatter___taxonomy___tag) {
+            fieldValue
+          }
+        }
+        categoriesGroup: allMdx(limit: 2000) {
+          group(field: frontmatter___taxonomy___category) {
+            fieldValue
           }
         }
       }
-    }    
-  `).then((result) => {
-    if (result.errors) return Promise.reject(result.errors);
+    `
+  )
 
-    const { allMarkdownRemark } = result.data;
+  if (result.errors) {
+    reporter.panicOnBuild(result.errors)
+    return
+  }
 
-    /* Post pages */
-    allMarkdownRemark.edges.forEach(({ node }) => {
-      // Check path prefix of post
-      if (node.frontmatter.path.indexOf(config.pages.blog) !== 0) {
-        // eslint-disable-next-line no-throw-literal
-        throw `Invalid path prefix: ${node.frontmatter.path}`;
-      }
+  // Create pages and blog posts.
+  const posts = result.data.pagesGroup.edges
+  const postsPerPage = 10
+  const numPages = Math.ceil(posts.length / postsPerPage)
 
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/blog` : `/blog/page:${i + 1}`,
+      component: blogPage,
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+
+  posts.forEach((post, index) => {
+    const previous = index === posts.length - 1 ? null : posts[index + 1].node
+    const next = index === 0 ? null : posts[index - 1].node
+    // eslint-disable-next-line no-shadow
+    const path = post.node.fileAbsolutePath
+    const regex = "/blog/"
+
+    if (path.match(regex)) {
       createPage({
-        path: node.frontmatter.path,
-        component: path.resolve('src/templates/post/post.jsx'),
+        path: `blog${post.node.fields.slug}`,
+        component: blogPost,
         context: {
-          postPath: node.frontmatter.path,
-          translations: utils.getRelatedTranslations(node, allMarkdownRemark.edges),
+          slug: post.node.fields.slug,
+          previous,
+          next,
         },
-      });
-    });
-    const regexForIndex = /index\.md$/;
-    // Posts in default language, excluded the translated versions
-    const defaultPosts = allMarkdownRemark.edges
-      .filter(({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex));
+      })
+    } else {
+      createPage({
+        path: `${post.node.fields.slug}`,
+        component: defaultPage,
+        context: {
+          slug: post.node.fields.slug,
+        },
+      })
+    }
+    // return null
+  })
 
-    /* Tag pages */
-    const allTags = [];
-    defaultPosts.forEach(({ node }) => {
-      node.frontmatter.tags.forEach((tag) => {
-        if (allTags.indexOf(tag) === -1) allTags.push(tag);
-      });
-    });
+  const tags = result.data.tagsGroup.group
 
-    allTags
-      .forEach((tag) => {
-        createPage({
-          path: utils.resolvePageUrl(config.pages.tag, tag),
-          component: path.resolve('src/templates/tags/index.jsx'),
-          context: {
-            tag,
-          },
-        });
-      });
+  tags.forEach(tag => {
+    createPage({
+      path: `/blog/tag:${tag.fieldValue.toLowerCase()}`,
+      component: tabPage,
+      context: {
+        tag: tag.fieldValue,
+      },
+    })
+  })
 
-    return 1;
-  });
-};
+  const categories = result.data.categoriesGroup.group
+
+  categories.forEach(category => {
+    createPage({
+      path: `/blog/category:${category.fieldValue.toLowerCase()}`,
+      component: categoryPage,
+      context: {
+        category: category.fieldValue,
+      },
+    })
+  })
+}
+
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === `Mdx`) {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
+  }
+}
