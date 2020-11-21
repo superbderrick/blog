@@ -38,9 +38,14 @@
       "url": "/about"
     },
     {
+      "title": "Projects",
+      "url": "/projects"
+    },
+    {
       "title": "Blog",
       "url": "/blog"
     }
+
   ],
   "footerLinks": [
     {
@@ -52,15 +57,17 @@
       "url": "/blog"
     },
     {
-      "title": "Uses",
-      "url": "/uses"
-    },
-    {
-      "title": "RSS",
-      "url": "/rss.xml"
+      "title": "Projects",
+      "url": "/projects"
     }
   ],
   "userLinks": [
+
+    {
+      "label": "Twitter",
+      "url": "http://twitter.com/@superbderrick",
+      "iconClassName": "fa fa-twitter"
+    },
     {
       "label": "LinkedIn",
       "url": "https://www.linkedin.com/in/sensational/",

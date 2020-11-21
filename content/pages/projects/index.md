@@ -3,11 +3,11 @@ title: Projects
 date: "2015-12-27T15:17:00.000Z"
 hero_classes: "parallax text-light hero-tiny overlay-dark-gradient"
 hero_image: anas-alshanti-feXpdV001o4-unsplash.jpg
-hero_title: "What I did"
-hero_text: "Projects"
+hero_title: "My Development Projects"
+hero_text: "Commercial and Personal"
 ---
 
-## 💻 Hardware
+## 💻 Commercial
 
 - **Computer **: 2017 13-inch MacBook Pro, Two Thunderbolt 3 ports
 - **External Display**: Dell U2414H
@@ -15,7 +15,7 @@ hero_text: "Projects"
 - **Mouse**: Apple Magic Mouse
 - **Headphones**: Sennheiser Hd-25
 
-## 📀 Software
+## 📀 Personal
 
 - **Editor**: [PhpStorm](https://www.jetbrains.com/es-es/phpstorm/) and [VS Code](https://code.visualstudio.com) with One Dark Theme
 - **Terminal**: [iTerm](http://iterm2.com/) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
