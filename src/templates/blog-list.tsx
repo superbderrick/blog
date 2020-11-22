@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import BodyClassName from "react-body-classname"
-
 import { PageData } from "models/page"
 import PostList from "../components/PostList"
 import Layout from "../components/Layout"
@@ -14,9 +13,9 @@ const BlogList: React.FC<PageData> = ({
 }: PageData) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMdx.edges
-  const heroTitle = "Blog - Dev Blog - Tech Blog"
+  const heroTitle = "Development Blog"
   const heroText =
-    "Articles and opinions of a frontend developer. Mostly in spanish."
+    "I hope these help you in your efforts"
 
   return (
     <BodyClassName className="header-dark header-transparent header-fixed header-animated">
@@ -26,7 +25,7 @@ const BlogList: React.FC<PageData> = ({
         <PostList
           heroTitle={heroTitle}
           heroText={heroText}
-          heroImage={data.fileName.childImageSharp.fluid.src}
+          // heroImage={data.fileName.childImageSharp.fluid.src}
           posts={posts}
           pageContext={pageContext}
         />

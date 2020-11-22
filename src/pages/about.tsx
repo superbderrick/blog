@@ -27,8 +27,8 @@ const AboutPage: React.FC<PageData> = ({
         <SEO title="About" keywords={seoKeywords} />
         <Hero
           title="About Derrick"
-          text="Trying to be an awesome software engineer who can help people and public welfare services.😎"
-          image={data.fileName.childImageSharp.fluid.src}
+          text="Trying to be an awesome software engineer who can help people and public welfare services 😎"
+          // image={data.fileName.childImageSharp.fluid.src}
           classes={heroClasses}
           smallHeadings
         />

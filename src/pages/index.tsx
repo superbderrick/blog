@@ -31,7 +31,6 @@ const IndexPage: React.FC<PageData> = ({
           title={home.hero.title}
           subtitle={home.hero.subtitle}
           text={home.hero.text}
-          image={data.fileName.childImageSharp.fluid.src}
           social
           classes={heroClasses}
         />

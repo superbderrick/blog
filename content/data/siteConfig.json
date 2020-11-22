@@ -2,7 +2,6 @@
   "siteTitle": "Derrick portfolio site & Blog",
   "siteTitleShort": "Derrick",
   "siteTitleAlt": "Software Engineer",
-  "siteLogo": "/assets/logo-rr-svg",
   "siteUrl": "https://jinyoung.dev",
   "pathPrefix": "/",
   "siteDescription": "Derrick portfolio site & Blog",
@@ -65,8 +64,7 @@
 
     {
       "label": "Twitter",
-      "url": "http://twitter.com/@superbderrick",
-      "iconClassName": "fa fa-twitter"
+      "url": "http://twitter.com/@superbderrick"
     },
     {
       "label": "LinkedIn",
