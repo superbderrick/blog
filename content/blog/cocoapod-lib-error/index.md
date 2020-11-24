@@ -12,8 +12,6 @@ taxonomy:
     - Cocoapods
     - iOS
 hero_classes: "hero-tiny text-light title-h1h2 parallax overlay-dark-gradient"
-hero_image: postbg.png
-thumbnail: "postbg.png"
 description: "Pod lib lint Error case  SWIFT_VERSION 3.0 is unsupported case"
 ---
 
