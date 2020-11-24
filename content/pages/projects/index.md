@@ -28,7 +28,7 @@ hero_text: "Commercial and Personal"
   
   
 ### [SummerSlider](https://github.com/superbderrick/SummerSlider)
-![](demo2.gif)
+![](ts.png)
 
   🍭 SummerSlider that can distinguish the parts where the advertisement of the video player comes out
 - **iOS**
