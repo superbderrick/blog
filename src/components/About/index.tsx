@@ -41,7 +41,10 @@ const About: React.FC<AboutData> = ({ info }: AboutData) => {
                 <StaticQuery
                   query={aboutQuery}
                   render={data => {
-                    return <Image fixed={data.avatar.childImageSharp.fixed} />
+                    if(data) {
+                      return <Image fixed={data.avatar.childImageSharp.fixed} />
+                    }
+                    
                   }}
                 />
               </div>

@@ -12,6 +12,7 @@ taxonomy:
     - Cocoapods
     - iOS
 hero_classes: "hero-tiny text-light title-h1h2 parallax overlay-dark-gradient"
+thumbnail: "th.png"
 description: "Pod lib lint Error case  SWIFT_VERSION 3.0 is unsupported case"
 ---
 
