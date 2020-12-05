@@ -8,26 +8,24 @@ hero_text: "Commercial and Personal"
 
 ### Commercial
 
-### Personal OpenSource projects
+### Personal OpenSource Projects
 
-### [SummerPlayerView](https://github.com/superbderrick/SummerPlayerView)
-  iOS Custom VideoPlayerView for kids, Tried to make it as similar as possible a Youtube kids App Player UI
-- **iOS**
-- **Swift5**
-- **Custom UI**
-  
-![](2.gif)
-  
-  
-  
-### [SummerSlider](https://github.com/superbderrick/SummerSlider)
-  SummerSlider that can distinguish the parts where the advertisement of the video player comes out
-- **iOS**
-- **Swift5**
-- **Custom UI**
+- iOS 
 
+  - [SummerPlayerView](/summerplayerview)
 
-![](1.gif)
+  - [SummerSlider](/summerslider)
+
+- Android
+  - [ScoreBoard](/scoreboard)
+  
+
+  
+
+  
+  
+  
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "What is Cocoapods?,Let's see what is the cocoapods                                   "
+title: "What is Cocoapods? Let's see what is the cocoapods                                   "
 hero_title: "Let's see what is it"
 hero_subtitle: "Let's see what is the cocoapods"
 published: true
@@ -16,13 +16,13 @@ thumbnail: "th.png"
 description: "Let's see what is the cocoapods"
 ---
 
-## What is the Cocoapods?
+### What is the Cocoapods?
 
 CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects
 It has over 79 thousand libraries and is used in over 3 million apps
 
 
-## How to install Cocopods?
+###  How to install Cocopods?
 
 CocoaPods is built with Ruby and is installable with the default Ruby available on macOS. We recommend you use the default ruby
 
@@ -32,7 +32,7 @@ Using the default Ruby install can require you to use sudo when installing gems.
 > $ sudo gem install cocoapods
 
 
-## Cocopods advantages?
+### Cocopods advantages?
  
 It is very useful for Dependency management and easy to use 3rd Party Libs
 
