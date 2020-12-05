@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Default posting to know how to use gatsby well"
 hero_title: "Hello World"
 hero_subtitle: "Hello World"
 published: true

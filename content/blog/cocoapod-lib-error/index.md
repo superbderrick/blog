@@ -1,5 +1,5 @@
 ---
-title: "Pod lib lint Error case  SWIFT_VERSION 3.0 is unsupported case"
+title: "Pod lib lint Error SWIFT_VERSION 3.0 is unsupported "
 hero_title: "Cocoapod lib lint error case"
 hero_subtitle: "Cocoapod lib lint error case"
 published: true
