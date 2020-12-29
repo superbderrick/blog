@@ -49,7 +49,7 @@ Android Unity nativeplugin 을 개발 도중에 ClassNotFoundException Exception
  
  ——————————————————————————————————-
 
- While I am working on Unity native plugin development, I met a "ClassNotFoundException" case
+ While I was working on unity native plugin development, I occurd a "ClassNotFoundException" case
 
  Similar Error Log
 
@@ -61,18 +61,12 @@ Android Unity nativeplugin 을 개발 도중에 ClassNotFoundException Exception
 
 My project has a dependency like this
 
-A: AAR in order to connect between Unity and Native
+A: Wrapper AAR in order to connect between Unity and Native and It has a defendcy on B
  
 B: Some feature's AAR
   
-c: A has a defendcy on B
 
-
-Becasue When I build in Android studio to make an aar file, it was fine without any error and  with Implmention property in build gradle
-I thought that it had been fine but 
-It occured an error
-
-The solution is that It has to contatin a and b aar files both on Unity Editor
+The solution is that it has to contatin a and b aar files both on Unity Editor
  
  Detail... 
  > Editor/Plugin/Android/A,B both aar files

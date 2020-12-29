@@ -1,7 +1,7 @@
 ---
-title: "Pod lib lint Error SWIFT_VERSION 3.0 is unsupported "
-hero_title: "Cocoapod lib lint error case"
-hero_subtitle: "Cocoapod lib lint error case"
+title: "CocoaPods lib lint error case SWIFT_VERSION 3.0 is unsupported "
+hero_title: "Cocoapods lib lint error case"
+hero_subtitle: "Cocoapods lib lint error case"
 published: true
 date: "2020-11-24T18:46:00.000Z"
 popular: true
@@ -20,8 +20,8 @@ description: "Pod lib lint Error case  SWIFT_VERSION 3.0 is unsupported case"
 Cocopoad trunk에 push 하기 전에 보통은 `$ Pod lib lint` command를 이용해 pod spec 파일이 올바르게 구성되었는지 확인이 필요합니다
 예전에 만들어놓은 [Custom UI Library](https://github.com/superbderrick/SummerSlider)를 Swift 5.0을 지원하기 위해 새롭게 pod spec 파일을 배포 하는 경우가 생겼고, 작업하는 도중에 다음과 같은 문제를 만났습니다
 
-Normally when we release own iOS opensources with cocoapod, we have to use pod commands in terminal interface 
-Especially before push to cocoapods trunk, we have to use `$ Pod lib lint` command in order to check our pod'spec file correctly
+Normally when we release own iOS opensources with cocoapods, we have to use pod commands in terminal interface 
+Especially before cocoapods spec file push to cocoapods's trunk, we have to use `$ Pod lib lint` command in order to check our pod'spec file configuration correctly
 
 I found an error case while I was working on new version release of my opensource, after excuted `$ Pod lib lint` command it showed error like below 
 
